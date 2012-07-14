@@ -1,0 +1,2 @@
+{"ts":1341784015670,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"exports.index = function(req, res) {\n  res.render('Hello World');\n};\n"]],"start1":0,"start2":0,"length1":0,"length2":69}]],"length":69}
+{"contributors":[],"silentsave":false,"ts":1341784273490,"patch":[[{"diffs":[[0,"er('"],[-1,"Hello World"],[1,"index.jade"],[0,"');\n"]],"start1":47,"start2":47,"length1":19,"length2":18}]],"length":68,"saved":false}

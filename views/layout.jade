@@ -1,0 +1,22 @@
+doctype 5
+html
+  head
+    title #{title}
+    block css
+        include includes/css
+  body
+    #main
+        block nav
+            include includes/nav
+        #content.container
+            #subNav
+                h2 #{title}
+            block pageContent
+        block scripts
+            script(src='javascripts/jquery.js')
+            script(src='javascripts/bootstrap-collapse.js')
+            script(src='javascripts/underscore.js')
+            script(src='javascripts/backbone.js')
+            script(type='text/javascript')
+                $('.nav li').eq(#{tab}).addClass('active');
+        
